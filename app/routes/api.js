@@ -2,11 +2,10 @@ const { getMovieList, getMovie } = require('../helpers/getMovieList');
 
 module.exports = (app) => {
 
-  app.route('/movies').get((req, res) => {
+  app.route('/api/movies').get((req, res) => {
 
-    let movieList = getMovieList();
-
-    console.log('MovieList: ', movieList);
+    let data = getMovieList();
+    let movieList = { ...data };
 
     if (!movieList || movieList.length === 0)
       res.send(`Nothing found`);
@@ -16,7 +15,7 @@ module.exports = (app) => {
   });
 
 
-  app.route('/movie/:name').get((req, res) => {
+  app.route('/api/movie/:name').get((req, res) => {
     let moviename = req.params.name;
     let movieData = getMovie(`${moviename}.json`);
 
