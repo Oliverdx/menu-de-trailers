@@ -1,20 +1,20 @@
-const path = require('path')
-const fs = require('fs');
+import path from 'path';
+import fs from 'fs';
 
 function getMovieList() {
 
-  const trailersPath = path.join(path.dirname(__dirname), './movies');
+  const trailersPath = path.join('./app/movies');
   return fs.readdirSync(trailersPath);
 
 }
 
 function getMovie(name) {
 
-  const trailersPath = path.join(path.dirname(__dirname), './movies/', name);
+  const trailersPath = path.join(`./app/movies/${name}.json`);
   return fs.readFileSync(trailersPath, 'UTF-8');
 }
 
-module.exports = {
+export {
   getMovieList,
   getMovie
 }
