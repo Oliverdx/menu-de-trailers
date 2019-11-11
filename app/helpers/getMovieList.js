@@ -3,15 +3,15 @@ const fs = require('fs');
 
 function getMovieList() {
 
-  const trailersPath = path.join(path.dirname(__dirname), './public/movies');
+  const trailersPath = path.join(path.dirname(__dirname), './movies');
   return fs.readdirSync(trailersPath);
 
 }
 
 function getMovie(name) {
 
-  const trailersPath = path.join(path.dirname(__dirname), './public/movies/', name);
-  return fs.readFileSync(trailersPath, 'utf8');
+  const trailersPath = path.join(path.dirname(__dirname), './movies/', name);
+  return fs.readFileSync(trailersPath, 'UTF-8');
 }
 
 module.exports = {

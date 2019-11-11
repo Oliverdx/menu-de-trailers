@@ -1,4 +1,5 @@
 var React = require('react');
+require('./style.scss');
 
 class DefaultLayout extends React.Component {
     render() {

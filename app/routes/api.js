@@ -5,13 +5,12 @@ module.exports = (app) => {
   app.route('/api/movies').get((req, res) => {
 
     let data = getMovieList();
-    let movieList = { ...data };
 
-    if (!movieList || movieList.length === 0)
+    if (!data)
       res.send(`Nothing found`);
-
+      
     else
-      res.json(movieList);
+      res.json(data);
   });
 
 

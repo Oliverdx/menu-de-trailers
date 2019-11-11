@@ -1,19 +1,34 @@
 const React = require('react');
 const DefaultLayout = require('./layouts/defaultLayout');
 
-class HelloMessage extends React.Component {
+class Index extends React.Component {
+
+    CoverRender(){
+
+    }
+
+    RenderList(obj) {
+        return obj.map((key, index) => {
+            let movieName = key.replace('.json', '');
+            return (
+                <li key={index}>
+                    <a href={`/movie/${movieName}`}>{movieName.replace(/-/g, ' ')}</a>
+                </li>
+            );
+        });
+    }
 
     render() {
-        const data = this.props.data;
-        console.log(data);
+        const data = Object.values(this.props.data);
         return (
             <DefaultLayout title={this.props.title}>
+                <h1>{this.props.title}</h1>
                 <ul>
-                    <li>{data[0]}</li>
+                    {this.RenderList(data)}
                 </ul>
             </DefaultLayout>
         );
     }
 }
 
-module.exports = HelloMessage;
+module.exports = Index;

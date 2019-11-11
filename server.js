@@ -11,6 +11,7 @@ app.engine('jsx', reactEngine.createEngine());
 
 app.use(bodyParser.json()) // for parsing application/json
 app.use(bodyParser.urlencoded({ extended: true })) // for parsing application/x-www-form-urlencoded
+app.use(express.static('app/public/'));
 
 require('./app/routes/index.js')(app);
 
