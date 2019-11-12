@@ -1,5 +1,6 @@
 import React from 'react';
 import { getMovie } from '../../app/helpers/getMovieList';
+import './style.scss';
 
 class Movie extends React.Component {
 
@@ -20,7 +21,7 @@ class Movie extends React.Component {
 
 Movie.getInitialProps = async (context) => {
   const { slug } = context.query;
-  const movieData = getMovie(slug);
+  const movieData = getMovie(`${slug}.json`);
   return { movieData };
 }
 
