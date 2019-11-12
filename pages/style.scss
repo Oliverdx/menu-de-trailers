@@ -1,4 +1,72 @@
 html, body{
   margin: 0;
   padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #0e0e0e;
+  color: #CCC;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #FFF;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 45px;
+  color: #a5a5a5;
+}
+
+.movieList {
+  display: grid;
+  grid-template-columns: repeat(4, 230px);
+  grid-gap: 15px;
+  justify-content: center;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.movie-single a {
+  display: flex;
+  flex-direction: column;
+  margin: 0 15px;
+}
+
+.movie-single a img {
+  height: auto;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+::-webkit-scrollbar{
+  width: 5px;
+  height: 5px;
+  background:#CCC;
+}
+
+::-webkit-scrollbar-thumb{
+  background:#5a5a5a;
+  border-radius: 5px;
+}
+
+@font-face{
+  font-family: 'Open Sans';
+  src: url('/fonts/OpenSans-Light.ttf') format('truetype');
+  font-weight: lighter
+}
+
+@font-face{
+  font-family: 'Open Sans';
+  src: url('/fonts/OpenSans-Regular.ttf') format('truetype');
+  font-weight: 300
+}
+
+@font-face{
+  font-family: 'Open Sans';
+  src: url('/fonts/OpenSans-Bold.ttf') format('truetype');
+  font-weight: bold
 }
