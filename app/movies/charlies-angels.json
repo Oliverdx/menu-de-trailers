@@ -1,20 +1,20 @@
 {
   "@context": "http://schema.org",
   "@type": "Movie",
-  "url": "localhost:8000/movies/charlies-angels",
-  "name": "Charlie Angels",
+  "url": "//localhost:3000/movies/charlies-angels",
+  "name": "Charlie's Angels",
   "image": "https://m.media-amazon.com/images/M/MV5BZDAzOTYxY2YtNzBmNi00YmE5LTk0NTktN2YwNTNiNGZjNWIzXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
   "description": "When a young systems engineer blows the whistle on a dangerous technology, Charlie's Angels are called into action, putting their lives on the line to protect us all.",
-  "genre": " Action, Adventure, Comedy",
+  "genre": "Animation, Adventure, Comedy",
   "countryOfOrigin": "USA",
   "contentRating": "PG-13",
   "director": ["Elizabeth Banks"],
-  "actors": ["Kirsten Bell", "Jason Ritter", "Evan Rachel Wood", "Jonathan Groff"],
+  "actors": ["Kristen Stewart", "Naomi Scott", "Ella Balinska", "Elizabeth Banks", "Patrick Stewart", "Djimon Hounsou"],
   "potentialAction": {
     "@type": "WatchAction",
     "target": "//localhost:3000/trailer/charlies-angels"
   },
   "copyrightYear": "2019",
-  "duration": "PT103M",
+  "duration": "PT118M",
   "dateCreated": "2019-11-08T02:00:00.000Z"
 }

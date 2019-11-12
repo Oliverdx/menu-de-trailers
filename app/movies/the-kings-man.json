@@ -1,20 +1,18 @@
 {
   "@context": "http://schema.org",
   "@type": "Movie",
-  "url": "localhost:8000/movies/the-kings-man",
-  "name": "The Kings Man",
+  "url": "//localhost:3000/movies/the-kings-man",
+  "name": "The King's Man",
   "image": "https://m.media-amazon.com/images/M/MV5BYTQwNTgxOWUtMjRhYy00N2IyLWJlNzEtOWZkNGY2NWNjYjc2XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
-  "description": "Anna, Elsa, Kristoff, Olaf and Sven leave Arendelle to travel to an ancient, autumn-bound forest of an enchanted land. They set out to find the origin of Elsa's powers in order to save their kingdom.",
-  "genre": "Animation, Adventure, Comedy",
-  "countryOfOrigin": "USA",
-  "contentRating": "PG",
-  "director": ["Chris Buck", "Jennifer Lee"],
-  "actors": ["Kirsten Bell", "Jason Ritter", "Evan Rachel Wood", "Jonathan Groff"],
+  "description": "As a collection of history's worst tyrants and criminal masterminds gather to plot a war to wipe out millions, one man must race against time to stop them.",
+  "genre": "Action, Adventure, Comedy",
+  "countryOfOrigin": "UK, USA",
+  "director": ["Matthew Vaughn"],
+  "actors": ["Gemma Arterton", "Matthew Goode", "Harris Dickinson", "Aaron Taylor-Johnson", "Ralph Fiennes", "Charles Dance", "Djimon Hounsou"],
   "potentialAction": {
     "@type": "WatchAction",
     "target": "//localhost:3000/trailer/the-kings-man"
   },
-  "copyrightYear": "2019",
-  "duration": "PT103M",
+  "copyrightYear": "2020",
   "dateCreated": "2019-11-08T02:00:00.000Z"
 }

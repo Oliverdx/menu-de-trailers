@@ -1,20 +1,19 @@
 {
-  "@context": "http://schema.org",
-  "@type": "Movie",
-  "url": "localhost:8000/movies/jumanji-the-next-level",
-  "name": "Jumanji the next level",
-  "image": "https://m.media-amazon.com/images/M/MV5BOTVjMmFiMDUtOWQ4My00YzhmLWE3MzEtODM1NDFjMWEwZTRkXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
-  "description": "Anna, Elsa, Kristoff, Olaf and Sven leave Arendelle to travel to an ancient, autumn-bound forest of an enchanted land. They set out to find the origin of Elsa's powers in order to save their kingdom.",
-  "genre": "Animation, Adventure, Comedy",
-  "countryOfOrigin": "USA",
-  "contentRating": "PG",
-  "director": ["Chris Buck", "Jennifer Lee"],
-  "actors": ["Kirsten Bell", "Jason Ritter", "Evan Rachel Wood", "Jonathan Groff"],
-  "potentialAction": {
-    "@type": "WatchAction",
-    "target": "//localhost:3000/trailer/jumanji-the-next-level"
-  },
-  "copyrightYear": "2019",
-  "duration": "PT103M",
-  "dateCreated": "2019-11-08T02:00:00.000Z"
+    "@context": "http://schema.org",
+    "@type": "Movie",
+    "url": "//localhost:3000/movies/jumanji-the-next-level",
+    "name": "Jumanji: The Next Level",
+    "image": "https://m.media-amazon.com/images/M/MV5BOTVjMmFiMDUtOWQ4My00YzhmLWE3MzEtODM1NDFjMWEwZTRkXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    "description": "A team of friends return to Jumanji to rescue one of their own but discover that nothing is as they expect. The players need to brave parts unknown, from arid deserts to snowy mountains, in order to escape the world's most dangerous game.",
+    "genre": "Action, Adventure, Comedy",
+    "countryOfOrigin": "USA",
+    "contentRating": "PG-13",
+    "director": ["Jake Kasdan"],
+    "actors": ["Dwayne Johnson", "Karen Gillan", "Madison Iseman", "Ashley Scott", "Jack Black", "Alex Wolff", "Danny DeVito"],
+    "potentialAction": {
+        "@type": "WatchAction",
+        "target": "//localhost:3000/trailer/jumanji-the-next-level"
+    },
+    "copyrightYear": "2019",
+    "dateCreated": "2019-11-08T02:00:00.000Z"
 }

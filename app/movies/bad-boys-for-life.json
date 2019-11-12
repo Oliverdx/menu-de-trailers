@@ -2,19 +2,17 @@
   "@context": "http://schema.org",
   "@type": "Movie",
   "url": "localhost:8000/movies/bad-boys-for-life",
-  "name": "Bad Boys for Life",
+  "name": "Bad Boys For Life",
   "image": "https://m.media-amazon.com/images/M/MV5BZjI1ZWYyMTYtZGYyNS00ODdhLWFmNGMtODZiYzgxOGNmNjZjXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
-  "description": "Anna, Elsa, Kristoff, Olaf and Sven leave Arendelle to travel to an ancient, autumn-bound forest of an enchanted land. They set out to find the origin of Elsa's powers in order to save their kingdom.",
-  "genre": "Animation, Adventure, Comedy",
+  "description": "Marcus Burnett is now a police inspector and Mike Lowery is in a midlife crisis. They unite again when an Albanian mercenary, whose brother they killed, promises them an important bonus.",
+  "genre": "Action, Comedy, Crime, Thriller",
   "countryOfOrigin": "USA",
-  "contentRating": "PG",
-  "director": ["Chris Buck", "Jennifer Lee"],
-  "actors": ["Kirsten Bell", "Jason Ritter", "Evan Rachel Wood", "Jonathan Groff"],
+  "director": ["Adil El Arbi", "Bilall Fallah"],
+  "actors": ["Will Smith", "Martin Lawrence", "Vanessa Hudgens", "Alexander Ludwig"],
   "potentialAction": {
     "@type": "WatchAction",
     "target": "//localhost:3000/trailer/bad-boys-for-life"
   },
-  "copyrightYear": "2019",
-  "duration": "PT103M",
+  "copyrightYear": "2020",
   "dateCreated": "2019-11-08T02:00:00.000Z"
 }
