@@ -1,7 +1,7 @@
 {
   "@context": "http://schema.org",
   "@type": "Movie",
-  "url": "localhost:8000/movies/the-kings-man",
+  "url": "//localhost:3000/movie/the-kings-man",
   "name": "The Kings Man",
   "image": "https://m.media-amazon.com/images/M/MV5BYTQwNTgxOWUtMjRhYy00N2IyLWJlNzEtOWZkNGY2NWNjYjc2XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
   "description": "Anna, Elsa, Kristoff, Olaf and Sven leave Arendelle to travel to an ancient, autumn-bound forest of an enchanted land. They set out to find the origin of Elsa's powers in order to save their kingdom.",

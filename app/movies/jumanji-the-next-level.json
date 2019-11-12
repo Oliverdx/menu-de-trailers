@@ -1,7 +1,7 @@
 {
   "@context": "http://schema.org",
   "@type": "Movie",
-  "url": "localhost:8000/movies/jumanji-the-next-level",
+  "url": "//localhost:3000/movie/jumanji-the-next-level",
   "name": "Jumanji the next level",
   "image": "https://m.media-amazon.com/images/M/MV5BOTVjMmFiMDUtOWQ4My00YzhmLWE3MzEtODM1NDFjMWEwZTRkXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
   "description": "Anna, Elsa, Kristoff, Olaf and Sven leave Arendelle to travel to an ancient, autumn-bound forest of an enchanted land. They set out to find the origin of Elsa's powers in order to save their kingdom.",
