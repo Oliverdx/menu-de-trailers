@@ -10,7 +10,7 @@ function getMovieList() {
 
 function getMovie(name) {
 
-  const trailersPath = path.join(`./app/movies/${name}.json`);
+  const trailersPath = path.join(`./app/movies/${name}`);
   return fs.readFileSync(trailersPath, 'UTF-8');
 }
 

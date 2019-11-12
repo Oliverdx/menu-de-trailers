@@ -1,26 +1,29 @@
 import React from 'react';
-import { getMovieList } from '../app/helpers/getMovieList';
+import { getMovieList, getMovie } from '../app/helpers/getMovieList';
+import './style.scss';
 
 class Index extends React.Component {
 
     renderList(list){
-      return list.map((movie, index) => {
-          movie = movie.replace(/(.json)/g, '');
-          return <li key={index}>
-              <a href={`/movie/${movie}`}>{movie.replace(/-/g, ' ')}</a>
-          </li>
+      return list.map((data, index) => {
+          return <div className="movie-single" key={index}>
+              <a href={data.url}>
+                <img src={data.image} alt={data.name}/>
+                <span>{data.name}</span>
+                <span>{data.copyrightYear}</span>
+              </a>
+          </div>
       });
     }
 
     render() {
-        const { movieList } = this.props;
-
+        const { moviesData } = this.props;
         return (
             <div className="main">
                 <h1>Menu de Filmes</h1>
-                <ul>
-                    {this.renderList(movieList)}
-                </ul>
+                <div className="movieList">
+                    {this.renderList(moviesData)}
+                </div>
             </div>
         );
     }
@@ -28,7 +31,11 @@ class Index extends React.Component {
 
 Index.getInitialProps = async () => {
   const movieList = getMovieList();
-  return { movieList };
+  let moviesData = movieList.map(movie => {
+    return JSON.parse(getMovie(movie));
+  });
+
+  return { movieList, moviesData };
 }
 
 export default Index;
