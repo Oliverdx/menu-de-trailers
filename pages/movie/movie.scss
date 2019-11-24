@@ -1,0 +1,57 @@
+#__next {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.movieDesc {
+    display: grid;
+    grid-template-areas:
+        "poster title"
+        "poster description"
+        "watch description";
+    grid-gap: 10px;
+    padding-right: 20px;
+    max-width: 1000px;
+
+    .poster {
+        grid-area: poster;
+    }
+
+    .title {
+        grid-area: title;
+        margin-top: 0;
+        text-align: left;
+        line-height: 41px;
+    }
+
+    .watch {
+        grid-area: watch;
+        text-align: center;
+    }
+
+    .description {
+        grid-area: description;
+    }
+}
+
+.movieInfo {
+    span {
+        font-size: 13px;
+        color: yellow;
+    }
+
+    p {
+        margin-top: 0;
+    }
+}

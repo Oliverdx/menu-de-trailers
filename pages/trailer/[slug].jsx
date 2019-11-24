@@ -5,10 +5,13 @@ class Trailer extends React.Component {
 
   render() {
     return (
-      <video controls autoPlay>
-        <source src={this.props.trailerURL} type="video/mp4" />
-        Your browser does not support the video tag.
+      <div>
+        <span className="backButton" onClick={() => window.location.href = '/'}></span>
+        <video controls autoPlay>
+          <source src={this.props.trailerURL} type="video/mp4" />
+          Your browser does not support the video tag.
         </video>
+      </div>
     );
   }
 }

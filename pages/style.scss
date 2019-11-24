@@ -1,4 +1,5 @@
-html, body{
+html,
+body {
   margin: 0;
   padding: 0;
   width: 100vw;
@@ -19,6 +20,40 @@ h1 {
   text-transform: uppercase;
   font-size: 45px;
   color: #a5a5a5;
+}
+
+.backButton {
+  position: fixed;
+  top: 50px;
+  right: 100px;
+  width: 50px;
+  height: 50px;
+  background: #a5a5a5;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: ease all 300ms;
+
+
+  &:before {
+    content: "<";
+    display: block;
+    font-size: 20px;
+    line-height: 0;
+    color: #000;
+  }
+
+  &:hover {
+    width: 130px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: yellow;
+
+    &:before {
+      content: "< Back";
+    }
+  }
 }
 
 .movieList {
@@ -42,30 +77,30 @@ h1 {
   margin-bottom: 5px;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   width: 5px;
   height: 5px;
-  background:#CCC;
+  background: #CCC;
 }
 
-::-webkit-scrollbar-thumb{
-  background:#5a5a5a;
+::-webkit-scrollbar-thumb {
+  background: #5a5a5a;
   border-radius: 5px;
 }
 
-@font-face{
+@font-face {
   font-family: 'Open Sans';
   src: url('/fonts/OpenSans-Light.ttf') format('truetype');
   font-weight: lighter
 }
 
-@font-face{
+@font-face {
   font-family: 'Open Sans';
   src: url('/fonts/OpenSans-Regular.ttf') format('truetype');
   font-weight: 300
 }
 
-@font-face{
+@font-face {
   font-family: 'Open Sans';
   src: url('/fonts/OpenSans-Bold.ttf') format('truetype');
   font-weight: bold

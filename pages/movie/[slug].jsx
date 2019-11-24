@@ -1,6 +1,7 @@
 import React from 'react';
 import { getMovie } from '../../app/helpers/getMovieList';
-import './style.scss';
+import './movie.scss';
+import '../style.scss';
 
 class Movie extends React.Component {
 
@@ -9,12 +10,27 @@ class Movie extends React.Component {
     movieData = JSON.parse(movieData);
 
     return (
-        <div>
-          <img src={movieData.image} alt={`Poster ${movieData.name}`} />
-          <h1>{movieData.name}</h1>
-          <a href={movieData.potentialAction.target} target="_self">Watch Trailer</a>
-          <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(movieData) }} />
-        </div>
+      <main>
+        <span className="backButton" onClick={() => window.location.href = '/'}></span>
+        <section className="movieDesc">
+          <h1 className="title">{movieData.name}</h1>
+          <img src={movieData.image} alt={`Poster ${movieData.name}`} className="poster" />
+          <p className="description">{movieData.description}</p>
+          <a href={movieData.potentialAction.target} target="_self" className="watch">Watch Trailer</a>
+        </section>
+        <aside className="movieInfo">
+          <div className="genre">
+            <span>Genre</span>
+            <p>{movieData.genre}</p></div>
+          <div className="country">
+            <span>Country</span>
+            <p>{movieData.countryOfOrigin}</p></div>
+          <div className="year">
+            <span>Year</span>
+            <p>{movieData.copyrightYear}</p></div>
+        </aside>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(movieData) }} />
+      </main>
     );
   }
 }
