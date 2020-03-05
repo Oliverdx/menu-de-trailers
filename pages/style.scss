@@ -7,6 +7,7 @@ body {
   background: #0e0e0e;
   color: #CCC;
   font-family: 'Open Sans', sans-serif;
+  overflow: hidden;
 }
 
 a {
@@ -34,7 +35,7 @@ h1 {
   align-items: center;
   justify-content: center;
   transition: ease all 300ms;
-
+  z-index: 2;
 
   &:before {
     content: "<";
