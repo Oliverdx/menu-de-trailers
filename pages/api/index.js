@@ -1,4 +1,5 @@
+import { catalog } from '../../data/catalog';
+
 export default (req, res) => {
-  console.log(req);
-  res.status(200).json({ 'Hello': 'Next' });
+  res.status(200).json(catalog)
 }
