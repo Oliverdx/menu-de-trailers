@@ -1,7 +1,7 @@
 {
   "@context": "http://schema.org",
   "@type": "Movie",
-  "url": "//localhost:3000/movie/frozen-2",
+  "url": "//trailerdefilmes.us-east-2.elasticbeanstalk.com/movie/frozen-2",
   "name": "Frozen 2",
   "image": "https://m.media-amazon.com/images/M/MV5BMjA0YjYyZGMtN2U0Ni00YmY4LWJkZTItYTMyMjY3NGYyMTJkXkEyXkFqcGdeQXVyNDg4NjY5OTQ@._V1_UX182_CR0,0,182,268_AL_.jpg",
   "description": "Anna, Elsa, Kristoff, Olaf and Sven leave Arendelle to travel to an ancient, autumn-bound forest of an enchanted land. They set out to find the origin of Elsa's powers in order to save their kingdom.",
@@ -12,7 +12,7 @@
   "actors": ["Kirsten Bell", "Jason Ritter", "Evan Rachel Wood", "Jonathan Groff"],
   "potentialAction": {
     "@type": "WatchAction",
-    "target": "//localhost:3000/trailer/frozen-2"
+    "target": "//trailerdefilmes.us-east-2.elasticbeanstalk.com/trailer/frozen-2"
   },
   "copyrightYear": "2019",
   "duration": "PT103M",
