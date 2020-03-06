@@ -5,8 +5,8 @@
   "dataFeedElement": [{
       "@context": "http://schema.org",
       "@type": "Movie",
-      "@id": "//localhost:3000/movie/bad-boys-for-life",
-      "url": "//localhost:3000/movie/bad-boys-for-life",
+      "@id": "//trailerdefilmes.us-east-2.elasticbeanstalk.com/movie/bad-boys-for-life",
+      "url": "//trailerdefilmes.us-east-2.elasticbeanstalk.com/movie/bad-boys-for-life",
       "name": "Bad Boys for Life",
       "image": "https://m.media-amazon.com/images/M/MV5BZjI1ZWYyMTYtZGYyNS00ODdhLWFmNGMtODZiYzgxOGNmNjZjXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
       "description": "Anna, Elsa, Kristoff, Olaf and Sven leave Arendelle to travel to an ancient, autumn-bound forest of an enchanted land. They set out to find the origin of Elsa's powers in order to save their kingdom.",
@@ -19,7 +19,7 @@
         "@type": "WatchAction",
         "target": {
           "@type": "entrypoint",
-          "urlTemplate": "//localhost:3000/trailer/bad-boys-for-life",
+          "urlTemplate": "//trailerdefilmes.us-east-2.elasticbeanstalk.com/trailer/bad-boys-for-life",
           "actionPlatform": [
             "http://schema.org/DesktopWebPlatform",
             "http://schema.org/MobileWebPlatform",
@@ -40,8 +40,8 @@
     {
       "@context": "http://schema.org",
       "@type": "Movie",
-      "@id": "//localhost:3000/movie/charlies-angels",
-      "url": "//localhost:3000/movie/charlies-angels",
+      "@id": "//trailerdefilmes.us-east-2.elasticbeanstalk.com/movie/charlies-angels",
+      "url": "//trailerdefilmes.us-east-2.elasticbeanstalk.com/movie/charlies-angels",
       "name": "Charlie Angels",
       "image": "https://m.media-amazon.com/images/M/MV5BZDAzOTYxY2YtNzBmNi00YmE5LTk0NTktN2YwNTNiNGZjNWIzXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
       "description": "When a young systems engineer blows the whistle on a dangerous technology, Charlie's Angels are called into action, putting their lives on the line to protect us all.",
@@ -54,7 +54,7 @@
         "@type": "WatchAction",
         "target": {
           "@type": "entrypoint",
-          "urlTemplate": "//localhost:3000/trailer/charlies-angels",
+          "urlTemplate": "//trailerdefilmes.us-east-2.elasticbeanstalk.com/trailer/charlies-angels",
           "actionPlatform": [
             "http://schema.org/DesktopWebPlatform",
             "http://schema.org/MobileWebPlatform",
@@ -75,8 +75,8 @@
     {
       "@context": "http://schema.org",
       "@type": "Movie",
-      "@id": "//localhost:3000/movie/frozen-2",
-      "url": "//localhost:3000/movie/frozen-2",
+      "@id": "//trailerdefilmes.us-east-2.elasticbeanstalk.com/movie/frozen-2",
+      "url": "//trailerdefilmes.us-east-2.elasticbeanstalk.com/movie/frozen-2",
       "name": "Frozen 2",
       "image": "https://m.media-amazon.com/images/M/MV5BMjA0YjYyZGMtN2U0Ni00YmY4LWJkZTItYTMyMjY3NGYyMTJkXkEyXkFqcGdeQXVyNDg4NjY5OTQ@._V1_UX182_CR0,0,182,268_AL_.jpg",
       "description": "Anna, Elsa, Kristoff, Olaf and Sven leave Arendelle to travel to an ancient, autumn-bound forest of an enchanted land. They set out to find the origin of Elsa's powers in order to save their kingdom.",
@@ -89,7 +89,7 @@
         "@type": "WatchAction",
         "target": {
           "@type": "entrypoint",
-          "urlTemplate": "//localhost:3000/trailer/frozen-2",
+          "urlTemplate": "//trailerdefilmes.us-east-2.elasticbeanstalk.com/trailer/frozen-2",
           "actionPlatform": [
             "http://schema.org/DesktopWebPlatform",
             "http://schema.org/MobileWebPlatform",
@@ -110,8 +110,8 @@
     {
       "@context": "http://schema.org",
       "@type": "Movie",
-      "@id": "//localhost:3000/movie/jumanji-the-next-level",
-      "url": "//localhost:3000/movie/jumanji-the-next-level",
+      "@id": "//trailerdefilmes.us-east-2.elasticbeanstalk.com/movie/jumanji-the-next-level",
+      "url": "//trailerdefilmes.us-east-2.elasticbeanstalk.com/movie/jumanji-the-next-level",
       "name": "Jumanji the next level",
       "image": "https://m.media-amazon.com/images/M/MV5BOTVjMmFiMDUtOWQ4My00YzhmLWE3MzEtODM1NDFjMWEwZTRkXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
       "description": "Anna, Elsa, Kristoff, Olaf and Sven leave Arendelle to travel to an ancient, autumn-bound forest of an enchanted land. They set out to find the origin of Elsa's powers in order to save their kingdom.",
@@ -124,7 +124,7 @@
         "@type": "WatchAction",
         "target": {
           "@type": "entrypoint",
-          "urlTemplate": "//localhost:3000/trailer/jumanji-the-next-level",
+          "urlTemplate": "//trailerdefilmes.us-east-2.elasticbeanstalk.com/trailer/jumanji-the-next-level",
           "actionPlatform": [
             "http://schema.org/DesktopWebPlatform",
             "http://schema.org/MobileWebPlatform",
@@ -145,8 +145,8 @@
     {
       "@context": "http://schema.org",
       "@type": "Movie",
-      "@id": "//localhost:3000/movie/star-wars-the-rise-of-skywalker",
-      "url": "//localhost:3000/movie/star-wars-the-rise-of-skywalker",
+      "@id": "//trailerdefilmes.us-east-2.elasticbeanstalk.com/movie/star-wars-the-rise-of-skywalker",
+      "url": "//trailerdefilmes.us-east-2.elasticbeanstalk.com/movie/star-wars-the-rise-of-skywalker",
       "name": "Star Wars: The Rise of Skywalker",
       "image": "https://m.media-amazon.com/images/M/MV5BMDljNTQ5ODItZmQwMy00M2ExLTljOTQtZTVjNGE2NTg0NGIxXkEyXkFqcGdeQXVyODkzNTgxMDg@._V1_UX182_CR0,0,182,268_AL_.jpg",
       "description": "Anna, Elsa, Kristoff, Olaf and Sven leave Arendelle to travel to an ancient, autumn-bound forest of an enchanted land. They set out to find the origin of Elsa's powers in order to save their kingdom.",
@@ -159,7 +159,7 @@
         "@type": "WatchAction",
         "target": {
           "@type": "entrypoint",
-          "urlTemplate": "//localhost:3000/trailer/star-wars-the-rise-of-skywalker",
+          "urlTemplate": "//trailerdefilmes.us-east-2.elasticbeanstalk.com/trailer/star-wars-the-rise-of-skywalker",
           "actionPlatform": [
             "http://schema.org/DesktopWebPlatform",
             "http://schema.org/MobileWebPlatform",
@@ -180,8 +180,8 @@
     {
       "@context": "http://schema.org",
       "@type": "Movie",
-      "@id": "//localhost:3000/movie/the-kings-man",
-      "url": "//localhost:3000/movie/the-kings-man",
+      "@id": "//trailerdefilmes.us-east-2.elasticbeanstalk.com/movie/the-kings-man",
+      "url": "//trailerdefilmes.us-east-2.elasticbeanstalk.com/movie/the-kings-man",
       "name": "The Kings Man",
       "image": "https://m.media-amazon.com/images/M/MV5BYTQwNTgxOWUtMjRhYy00N2IyLWJlNzEtOWZkNGY2NWNjYjc2XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
       "description": "Anna, Elsa, Kristoff, Olaf and Sven leave Arendelle to travel to an ancient, autumn-bound forest of an enchanted land. They set out to find the origin of Elsa's powers in order to save their kingdom.",
@@ -194,7 +194,7 @@
         "@type": "WatchAction",
         "target": {
           "@type": "entrypoint",
-          "urlTemplate": "//localhost:3000/trailer/the-kings-man",
+          "urlTemplate": "//trailerdefilmes.us-east-2.elasticbeanstalk.com/trailer/the-kings-man",
           "actionPlatform": [
             "http://schema.org/DesktopWebPlatform",
             "http://schema.org/MobileWebPlatform",

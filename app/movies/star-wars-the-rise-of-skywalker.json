@@ -1,7 +1,7 @@
 {
   "@context": "http://schema.org",
   "@type": "Movie",
-  "url": "//localhost:3000/movie/star-wars-the-rise-of-skywalker",
+  "url": "//trailerdefilmes.us-east-2.elasticbeanstalk.com/movie/star-wars-the-rise-of-skywalker",
   "name": "Star Wars: The Rise of Skywalker",
   "image": "https://m.media-amazon.com/images/M/MV5BMDljNTQ5ODItZmQwMy00M2ExLTljOTQtZTVjNGE2NTg0NGIxXkEyXkFqcGdeQXVyODkzNTgxMDg@._V1_UX182_CR0,0,182,268_AL_.jpg",
   "description": "A year after the events of The Last Jedi, the remnants of the Resistance face the First Order once again—while reckoning with the past and their own inner turmoil. Meanwhile, the ancient conflict between the Jedi and the Sith reaches its climax, bringing the Skywalker saga to a definitive end.",
@@ -11,7 +11,7 @@
   "actors": ["Daisy Ridley", "Adam Driver", "Domhnall Gleeson", "Oscar Isaac", "John Boyega", "Mark Hamill", "Carrie Fisher"],
   "potentialAction": {
     "@type": "WatchAction",
-    "target": "//localhost:3000/trailer/star-wars-the-rise-of-skywalker"
+    "target": "//trailerdefilmes.us-east-2.elasticbeanstalk.com/trailer/star-wars-the-rise-of-skywalker"
   },
   "copyrightYear": "2019",
   "duration": "PT155M",

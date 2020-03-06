@@ -1,7 +1,7 @@
 {
   "@context": "http://schema.org",
   "@type": "Movie",
-  "url": "//localhost:3000/movie/charlies-angels",
+  "url": "//trailerdefilmes.us-east-2.elasticbeanstalk.com/movie/charlies-angels",
   "name": "Charlie Angels",
   "image": "https://m.media-amazon.com/images/M/MV5BZDAzOTYxY2YtNzBmNi00YmE5LTk0NTktN2YwNTNiNGZjNWIzXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
   "description": "When a young systems engineer blows the whistle on a dangerous technology, Charlie's Angels are called into action, putting their lives on the line to protect us all.",
@@ -12,7 +12,7 @@
   "actors": ["Kristen Stewart", "Naomi Scott", "Ella Balinska", "Elizabeth Banks", "Patrick Stewart", "Djimon Hounsou"],
   "potentialAction": {
     "@type": "WatchAction",
-    "target": "//localhost:3000/trailer/charlies-angels"
+    "target": "//trailerdefilmes.us-east-2.elasticbeanstalk.com/trailer/charlies-angels"
   },
   "copyrightYear": "2019",
   "duration": "PT118M",

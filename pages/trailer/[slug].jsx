@@ -18,9 +18,8 @@ class Trailer extends React.Component {
 
 Trailer.getInitialProps = async (context) => {
   const { slug } = context.query;
-  const trailerURL = `/movietrailers/${slug}.mov`;
-  console.log(trailerURL);
-
+  const S3URL = 'https://elasticbeanstalk-us-east-2-292877944260.s3.us-east-2.amazonaws.com'
+  const trailerURL = `${S3URL}/trailers/${slug}.mov`;
   return { trailerURL };
 }
 
