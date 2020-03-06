@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "node server.js",
+    "dev": "next",
     "build": "next build",
     "start": "next start",
     "deploy": "next build && set NODE_ENV=production&&node server.js"
@@ -14,8 +14,10 @@
   "license": "ISC",
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
+    "express": "^4.17.1",
     "next": "9.1.1",
     "node-sass": "^4.13.0",
+    "pug": "^2.0.4",
     "react": "^16.11.0",
     "react-dom": "^16.11.0"
   }
